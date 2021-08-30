@@ -1,0 +1,167 @@
+*{
+    margin: 0 ;
+    padding: 0 ;
+    -webkit-box-sizing: border-box ;
+    -moz-box-sizing: border-box ;
+     box-sizing: border-box ;
+  }
+  
+  body{ 
+      background-color: #fff3f0 ;
+  
+ }  
+
+
+ .wrap {
+	padding: 150px; 
+	width: 1100px ;
+	margin: 50px auto; 
+	display: -webkit-box; 
+	display: -webkit-flex; 
+	display: -ms-flexbox ;
+	display: flex ;
+	-webkit-box-pack: center; 
+	-webkit-justify-content: center; 
+	-ms-flex-pack: center ;
+	justify-content: center; 
+.tarjeta-wrap {
+	margin: 10px; 
+	-webkit-perspective: 800; 
+	perspective: 800 ;
+	&:hover {
+		.tarjeta{ 
+			-webkit-transform: rotateY(180deg); 
+			transform: rotateY(180deg) ;
+.tarjeta {
+	width: 256px; 
+	height: 256px; 
+	background: white; 
+	position: relative; 
+	-webkit-transform-style: preserve-3d; 
+	transform-style: preserve-3d ;
+	-webkit-transition: .7s ease ;
+	transition: .7s ease ;
+	-webkit-box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65); 
+	box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65) ;
+.adelante, .atras {
+	width: 100% ;
+	height: 100% ;
+	position: absolute; 
+	top: 0 ;
+	left: 0 ;
+	-webkit-backface-visibility: hidden; 
+	backface-visibility: hidden ;
+	}
+.adelante {
+	width: 100%;
+	}
+.atras {
+	-webkit-transform: rotateY(180deg); 
+	transform: rotateY(180deg) ;
+	padding: 15px ;
+	display: -webkit-box; 
+	display: -webkit-flex; 
+	display: -ms-flexbox ;
+	display: flex ;
+	-webkit-box-pack: center ;
+	-webkit-justify-content: center; 
+	-ms-flex-pack: center ;
+	justify-content: center; 
+	-webkit-box-align: center; 
+	-webkit-align-items: center; 
+	-ms-flex-align: center ;
+	align-items: center ;
+	text-align: center ;
+	color: #fff ;
+	font-family: "open sans"; 
+	background: #bc827c ;
+	font-size: larger ;
+	a {
+		text-decoration: none ;
+		color: #fff ;
+		font-size: xx-large; 
+		padding: 2px 8px ;
+		transition: all 0.4s linear; 
+		border-radius: 5px ;
+		&:hover {
+			background-color: lightgrey;
+			}
+			}
+			}
+.card1 {
+	background-image: url(imagenes/contacto.png); 
+	background-size: contain ;
+	}
+.card2 {
+	background-image: url(imagenes/actualizaciones.png); 
+	background-size: cover ;
+	}
+.card3 {
+	background-image: url(imagenes/cotizacion.png); 
+	background-size: cover ;
+	}
+	
+}
+}
+}
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .ubicacion{ 
+	margin: auto; 
+	padding-top: auto; 
+	padding-bottom: 100px; 
+	text-align: center;
+	color: gray;
+ 
+h2 {
+	margin: 40px; 
+	padding-bottom: 20px; 
+	color: gray ;
+	font-size: 35px; 
+
+img{
+	height: 40px;
+	width: 40px;
+}
+}
+p {
+	margin: auto; 
+	font-size: 20px; 
+	color: gray ;
+	padding-top: 30px; 
+	font-family: lato ;
+	margin-left: 30px ;
+	margin-bottom: 10px;
+	text-align: center;
+	color: gray;
+} 
+ }
+footer {
+	background-color: #798897; 
+	padding: 20px 10px ;
+	margin-top: auto ;
+	p {
+		text-align: center; 
+		color: white ;
+		font-size: 15px; 
+		font-family: lato; 
+}
+}

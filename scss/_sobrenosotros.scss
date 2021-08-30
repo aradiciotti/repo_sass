@@ -1,0 +1,47 @@
+.grid-container1 {
+	display: grid ;
+	margin: 40px 0 40px 0 ;
+	grid-template-columns: repeat(4, 20%) ;
+	grid-template-rows: repeat(2, 300px) ;
+	text-align: center ;
+	justify-content: stretch ;
+	font-size: 1.5rem ;
+	grid-template-areas: "banner1 banner1 banner1 banner1" 
+                        "foto foto biografia biografia" ;
+
+.banner1 {
+	grid-area: banner1 ;
+	background-color: #fff3f0 ;
+	text-decoration: gray ;
+	padding-top: 50px ;
+h1{ 
+	color: gray ;
+	text-align: center ;
+	margin-top: 100px ;
+	font-family: lato ;
+	font-size: 40px; 
+	margin-bottom: 20px ;
+}
+}
+.foto{ 
+	grid-area: foto ;
+	background-color: #fff3f0 ;
+}
+
+.biografia{ 
+	grid-area: biografia ;
+	background-color: #bc827c ;
+	border: solid 5px #798897 ;
+	
+p{
+    justify-content: center ;
+	color: white ;
+	margin-left: 0 ;
+	margin-bottom: 0 ;
+	font-size: 18px ;
+	padding: 20px ;
+}
+}
+}
+
+

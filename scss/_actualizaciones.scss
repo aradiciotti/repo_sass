@@ -1,0 +1,108 @@
+em {
+	h1{ 
+	color: gray; 
+		font-family: lato; 
+		font-size: 40px ;
+		text-align: center;
+}
+}
+
+.grid-container{ 
+	display: grid; 
+	margin: 40px 0 40px 0; 
+	grid-template-columns: repeat(4, 25%); 
+	grid-template-rows: repeat(3, 200px) ;
+	gap: 1px 1px ;
+	text-align: center; 
+	justify-content: stretch ;
+	font-size: 1.5rem ;
+	grid-template-areas: "banner banner banner banner" 
+    "noticiauno noticiauno noticiados noticiados"
+    "noticiatres noticiatres noticiacuatro noticiacuatro" ;
+ .banner { 
+	grid-area: banner; 
+	background-color: #fff3f0; 
+	text-decoration: gray ;
+	font-family: 'Noto Sans', sans-serif ;
+	padding-top: 50px ;
+ }
+	
+.noticiauno{ 
+	grid-area: noticiauno; 
+	background-color: #798897 ;
+	padding-top: 30px ;
+	margin: 15px ;
+	a {
+		color: #fff3f0; 
+		text-decoration: none; 
+		transition: all 0.4s linear; 
+		border-radius: 5px ;
+		font-family: 'Noto Sans', sans-serif; 
+		font-size: 30px ;
+		transition: all 0.4s linear; 
+		border-radius: 5px ;
+		&:hover{ 
+			color: lightslategray;
+        }
+    }
+}
+
+
+.noticiados {
+	grid-area: noticiados; 
+	background-color: #bc827c; 
+	padding-top: 30px ;
+	margin: 15px ;
+	a {
+		color: #fff3f0; 
+		text-decoration: none; 
+		transition: all 0.4s linear; 
+		border-radius: 5px ;
+		font-family: 'Noto Sans', sans-serif; 
+		font-size: 30px ;
+		transition: all 0.4s linear; 
+		border-radius: 5px ;
+		&:hover{ 
+			color: #bc827c; 
+        }
+    }
+}
+.noticiatres {
+	grid-area: noticiatres; 
+	background-color: #bc827c; 
+	padding-top: 30px ;
+	margin: 15px ;
+	a {
+		color: #fff3f0; 
+		text-decoration: none; 
+		transition: all 0.4s linear; 
+		border-radius: 5px ;
+		font-family: 'Noto Sans', sans-serif; 
+		font-size: 30px ;
+		transition: all 0.4s linear; 
+		border-radius: 5px ;
+		&:hover{ 
+			color: #bc827c;
+        }
+    }
+} 
+.noticiacuatro {
+	grid-area: noticiacuatro; 
+	background-color: #798897; 
+	padding-top: 30px ;
+	margin: 15px ;
+	a {
+		color: #fff3f0; 
+		text-decoration: none; 
+		transition: all 0.4s linear ;
+		border-radius: 5px ;
+		font-family: 'Noto Sans', sans-serif; 
+		font-size: 30px ;
+		transition: all 0.4s linear; 
+		border-radius: 5px ;
+		&:hover {
+			color: lightslategray; 
+}
+}
+}
+}

@@ -1,0 +1,113 @@
+
+
+@media only screen and (max-width: 750px) {
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+		padding: 2px 8px;
+    }
+
+    .navigation{
+        width:100%;
+		margin-top: 1rem;
+    }
+
+    .navigation ul {
+        display: none;
+    }
+
+    
+    .navigation ul.show {
+        display: block;
+    }
+
+    .navigation ul li {
+        display: block;
+        margin-top: 2px;
+    }
+    
+    .navigation ul li a {
+        display: block;
+        padding: 2px 0;
+        transition: all 0.4s linear;
+        border-radius: 5px;
+    }
+    .navigation ul li a:hover {
+        background: grey;
+    
+    }
+
+
+	
+	.wrap {
+		flex-wrap: wrap;	
+			display: flex;
+			justify-content: center;
+			width: 100%;
+		}
+
+		footer{
+			width: 100%;
+		}
+
+		
+		.grid-container1{
+			display: grid;
+			margin: 50px;
+			gap: 20px;
+			grid-template-columns: repeat(1, 20%);
+			grid-template-rows: repeat(1, 300px);
+		
+		}
+	h1{
+		padding-top: 50px;
+	}
+
+	}	
+
+
+@media (max-width: 480px) {
+	form{
+		width: 100%;
+	}
+	h3{
+		padding-top: 60px;
+	}
+	
+}
+
+@media(max-width: 880px) {
+	.grid-container1{
+		display: grid;
+		margin: 50px;
+		gap: 20px;
+		grid-template-columns: repeat(1, 20%);
+		grid-template-rows: repeat(1, 300px);
+	
+	}
+	
+	
+}
+
+
+@media(max-width: 680px){
+	.noticiauno a{
+		font-size: 15px;
+	}
+	.noticiados a{
+		font-size: 15px;
+	}
+	.noticiatres a{
+		font-size: 15px;
+	
+	}
+	.noticiacuatro a{
+		font-size: 15px;
+	}
+
+	.banner{
+		padding-top: 80px;
+		
+	}
+}
+

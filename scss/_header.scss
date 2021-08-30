@@ -1,0 +1,53 @@
+.header {
+	background-color: #798897 ;
+	color: white ;
+	padding: 20px 10px ;
+	position: fixed ;
+	left: 0 ;
+	top: 0 ;
+	right: 0 ;
+
+       a{ 
+           color: white ;
+           text-decoration: none ;
+}
+}
+
+.logo-nav-container{ 
+	display: flex ;
+	justify-content: space-between ;
+	align-items: center ;
+	flex-wrap: wrap ;
+}
+
+.menu-icon {
+	display: none ;
+}
+
+.logo {
+	letter-spacing: 10px ;
+	font-size: 20px ;
+}
+
+.navigation {
+	ul{ 
+		margin: 0 ;
+		padding: 0 ;
+		list-style: none ;
+
+		li {
+			display: inline-block ;
+
+			a {
+				display: block ;
+				padding: 2px 8px ;
+				transition: all 0.4s linear ;
+				border-radius: 5px ;
+
+				&:hover {
+					background: lightgrey ;
+}
+}
+}
+}
+}
